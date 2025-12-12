@@ -1,0 +1,15 @@
+# Core Libraries
+numpy>=1.23.0
+Pillow>=9.0.0
+
+# Machine Learning
+tensorflow>=2.14.0
+
+# Web App
+streamlit>=1.25.0
+
+# Text-to-Speech
+gTTS>=2.3.2
+
+# Optional for caching in Streamlit
+cachetools>=5.3.0
