@@ -69,7 +69,7 @@ body {
 </style>
 """, unsafe_allow_html=True)
 
-st.title("😊 Advanced Emotion Detection Web App")
+st.title("Emotion Recognition System")
 st.write("Upload an image or use your webcam to detect emotions, get advice, and enjoy related audio.")
 
 # -------------------------
@@ -154,7 +154,6 @@ def generate_share_link(emotion, confidence):
 col1, col2 = st.columns([2, 1])
 
 with col1:
-    st.subheader("Input Options")
     input_method = st.radio("Choose Input Method", ["Upload Image", "Use Webcam"], index=0)
     
     if input_method == "Upload Image":
